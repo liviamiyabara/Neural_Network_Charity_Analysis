@@ -56,4 +56,4 @@ Since the target predictive accuracy higher than 75%, the student makes modifica
 
 ## Summary
 
-After four different models, I was unable to create a model that could preform a 75% accuracy rating, my best performing model achieved a 70% accuracy. Additional effort is needed to understand if a better accuracy can be achieved by changing the number of neurons, layers, activation model or pre-processing the data. Another option would be using the Random Forest Classifier as an alternative methodology to the model. 
+After four different models, I was unable to create a model that could preform a 75% accuracy rating, my best performing model achieved a 70% accuracy. Additional effort is needed to understand if a better accuracy can be achieved by changing the number of neurons, layers, activation model or pre-processing the data. Another option would be using Support Vector Machines (SVMs), since they are a type of binary classifier that use geometric boundaries to distinguish data points from two separate groups. 
