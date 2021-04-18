@@ -20,7 +20,7 @@ Since the target predictive accuracy higher than 75%, the student makes modifica
 
     * What variable(s) are considered to be the features for your model?
     
-        All data from the other columns are considered the features of my model except for the "IS_SUCCESSFUL", "EIN" and "NAME" data. For Deliverable 3, in attempt #3 I also removed "SPECIAL_CONSIDERATIONS" and "STATUS" data to see if we could improve the model.
+        All data from the other columns are considered the features of my model except for the "IS_SUCCESSFUL", "EIN" and "NAME" data. For Deliverable 3, in attempt #3, I also removed "SPECIAL_CONSIDERATIONS" and "STATUS" data to see if we could improve the model.
 
     * What variable(s) are neither targets nor features, and should be removed from the input data?
 
@@ -30,7 +30,7 @@ Since the target predictive accuracy higher than 75%, the student makes modifica
 
     * How many neurons, layers, and activation functions did you select for your neural network model, and why?
     
-        For my first model in Deliverable 2 I used 2 hidden layers, the first one with 12 neurons and the second with 8 neurons, both with the "relu" activation function and the "sigmoid" as the output function.
+        For my first model in Deliverable 2, I used 2 hidden layers, the first one with 12 neurons and the second with 8 neurons, both with the "relu" activation function and the "sigmoid" as the output function.
         I used those parameters since the relu function performs well with nonlinear data and 2 hidden layers give another way to process the data nd re-weight it before the output. 
 
     * Were you able to achieve the target model performance?
@@ -56,4 +56,4 @@ Since the target predictive accuracy higher than 75%, the student makes modifica
 
 ## Summary
 
-After four different models, I was unable to create a model that could preform a 75% accuracy rating, my best performing model achieved a 70% accuracy. Additional effort is needed to understand if a better accuracy can be achieved by changing the number of neurons, layers, activation model or pre-processing the data. Another option would be using the Random Forest Classifier as an alternative and check the performance of the model.
+After four different models, I was unable to create a model that could preform a 75% accuracy rating, my best performing model achieved a 70% accuracy. Additional effort is needed to understand if a better accuracy can be achieved by changing the number of neurons, layers, activation model or pre-processing the data. Another option would be using the Random Forest Classifier as an alternative methodology to the model. 
