@@ -16,43 +16,43 @@ Since the target predictive accuracy higher than 75%, the student makes modifica
 
     * What variable(s) are considered the target(s) for your model?
 
-    The "IS_SUCCESSFUL" is the target of my model, it predicts wheter applicants will be successful if funded by Alphabet Soup
+        The "IS_SUCCESSFUL" is the target of my model, it predicts wheter applicants will be successful if funded by Alphabet Soup
 
     * What variable(s) are considered to be the features for your model?
     
-    All data from the other columns are considered the features of my model except for the "IS_SUCCESSFUL", "EIN" and "NAME" data. For Deliverable 3, in attempt #3 I also removed "SPECIAL_CONSIDERATIONS" and "STATUS" data to see if we could improve the model.
+        All data from the other columns are considered the features of my model except for the "IS_SUCCESSFUL", "EIN" and "NAME" data. For Deliverable 3, in attempt #3 I also removed "SPECIAL_CONSIDERATIONS" and "STATUS" data to see if we could improve the model.
 
     * What variable(s) are neither targets nor features, and should be removed from the input data?
 
-    Columns "EIN" and "NAME" were dropped since they do not influence the outcome
+        Columns "EIN" and "NAME" were dropped since they do not influence the outcome
 
 * Compiling, Training, and Evaluating the Model
 
     * How many neurons, layers, and activation functions did you select for your neural network model, and why?
     
-    For my first model in Deliverable 2 I used 2 hidden layers, the first one with 12 neurons and the second with 8 neurons, both with the "relu" activation function and the "sigmoid" as the output function.
-    I used those parameters since the relu function performs well with nonlinear data and 2 hidden layers give another way to process the data nd re-weight it before the output. 
+        For my first model in Deliverable 2 I used 2 hidden layers, the first one with 12 neurons and the second with 8 neurons, both with the "relu" activation function and the "sigmoid" as the output function.
+        I used those parameters since the relu function performs well with nonlinear data and 2 hidden layers give another way to process the data nd re-weight it before the output. 
 
     * Were you able to achieve the target model performance?
 
-    No, as shown below, performance achieved was 70% and the target was 75%.
+        No, as shown below, performance achieved was 70% and the target was 75%.
 
-    ![ScreenShot](https://github.com/liviamiyabara/Neural_Network_Charity_Analysis/blob/main/Resources/Deliverable2_results.JPG)
+        ![ScreenShot](https://github.com/liviamiyabara/Neural_Network_Charity_Analysis/blob/main/Resources/Deliverable2_results.JPG)
 
     * What steps did you take to try and increase model performance?
 
-    For attempt # 1, I changed the output layer and used activation model "tahn". Unfortunately, the accuracy was below the previous one, 54%:
+        For attempt # 1, I changed the output layer and used activation model "tahn". Unfortunately, the accuracy was below the previous one, 54%:
 
-    ![ScreenShot](https://github.com/liviamiyabara/Neural_Network_Charity_Analysis/blob/main/Resources/Attempt1_results.JPG)
+        ![ScreenShot](https://github.com/liviamiyabara/Neural_Network_Charity_Analysis/blob/main/Resources/Attempt1_results.JPG)
 
 
-    For attempt # 2, I added an additional hidden layer (total of 3 hidden layers) and increased the neurons (25, 12, and 18). Unfortunately, the accuracy was also low, at 55%:
+        For attempt # 2, I added an additional hidden layer (total of 3 hidden layers) and increased the neurons (25, 12, and 18). Unfortunately, the accuracy was also low, at 55%:
 
-    ![ScreenShot](https://github.com/liviamiyabara/Neural_Network_Charity_Analysis/blob/main/Resources/Attempt2_results.JPG)
+        ![ScreenShot](https://github.com/liviamiyabara/Neural_Network_Charity_Analysis/blob/main/Resources/Attempt2_results.JPG)
 
-    For attempt # 3, I have made changes to the data, I removed column "SPECIAL_CONSIDERATIONS", "STATUS" from the analysis. Unfortunately, the accuracy was also low, at 53%:
+        For attempt # 3, I have made changes to the data, I removed column "SPECIAL_CONSIDERATIONS", "STATUS" from the analysis. Unfortunately, the accuracy was also low, at 53%:
 
-    ![ScreenShot](https://github.com/liviamiyabara/Neural_Network_Charity_Analysis/blob/main/Resources/Attempt3_results.JPG)
+        ![ScreenShot](https://github.com/liviamiyabara/Neural_Network_Charity_Analysis/blob/main/Resources/Attempt3_results.JPG)
 
 ## Summary
 
